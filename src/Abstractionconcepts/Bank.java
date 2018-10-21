@@ -14,6 +14,11 @@ public void credit()
 {
 	System.out.println("credit mehtod");
 }
+
+public void creditcard()
+{
+	System.out.println("credit card mehtod");
+}
 	
 public void debit()
 {
