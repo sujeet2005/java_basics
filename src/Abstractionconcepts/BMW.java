@@ -1,7 +1,7 @@
 package Abstractionconcepts;
 
 public class BMW implements Car {
-
+	int i;
 	@Override
 	public void start() {
 	System.out.println(" BMW - start");
