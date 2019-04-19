@@ -1,0 +1,34 @@
+package Programs;
+
+public class PerfectNo {
+
+	public static void main(String[] args) {
+		
+	perfectNo(28);	
+		
+
+	}
+	
+	public static void perfectNo(int number)
+	{
+		
+		int temp= 0;
+		
+		for(int i=1;i<=number/2;i++)
+		{
+			if(number%i==0)
+				temp=temp+i;
+			
+		}
+		if(number==temp)
+		{
+			System.out.println("no. is perfect");
+		}
+		else 
+		{
+			System.out.println("no. is not perfect");	
+		}
+		
+	}
+
+}
