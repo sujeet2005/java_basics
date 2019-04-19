@@ -1,0 +1,15 @@
+package Programs;
+
+public class RandomNo {
+
+	public static void main(String[] args) {
+		
+		double d=100*(Math.random());
+		
+		int a=(int) d;
+		System.out.println(a);
+		
+
+	}
+
+}
